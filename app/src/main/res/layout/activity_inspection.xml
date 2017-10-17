@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d8e5b8">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Inspection/Complaint Form"
+        android:id="@+id/textView9"
+        android:layout_gravity="center_horizontal"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Number Plate :"
+        android:layout_marginTop="20dp"
+        android:id="@+id/textView10"
+        android:layout_below="@+id/textView9"
+        android:layout_alignParentStart="true"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/textView11"
+        android:typeface="serif"
+        android:layout_above="@+id/textView12"
+        android:layout_alignStart="@+id/textView15"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Driver License :"
+        android:id="@+id/textView12"
+        android:layout_below="@+id/textView16"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentStart="true"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:textColor="#000000" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText6"
+        android:layout_below="@+id/textView12"
+        android:layout_alignParentStart="true"
+        android:typeface="serif"
+        android:hint="Enter Driver&apos;s License Number" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Bluebook Concordance :"
+        android:id="@+id/textView14"
+        android:layout_below="@+id/editText6"
+        android:layout_alignParentStart="true"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="#000" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBox2"
+        android:layout_alignTop="@+id/textView18"
+        android:layout_toEndOf="@+id/textView15"
+        android:checked="false"
+        android:layout_alignStart="@+id/checkBox3" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Vehicle Model :"
+        android:id="@+id/textView15"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_marginLeft="30dp"
+        android:layout_alignTop="@+id/textView10"
+        android:layout_toEndOf="@+id/textView10" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/textView16"
+        android:layout_below="@+id/textView10"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="0dp"
+
+        android:typeface="serif" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Location :"
+        android:paddingTop="10dp"
+        android:id="@+id/textView17"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_below="@+id/textView14"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText8"
+        android:layout_alignTop="@+id/textView17"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/textView17"
+        android:hint="Enter Location"
+        android:typeface="serif" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText9"
+        android:hint="Any additional information"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/checkBox2"
+        android:layout_alignEnd="@+id/checkBox2" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register Inspection/Complaint"
+        android:id="@+id/button2"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/abc_primary_text_material_dark"
+        android:layout_above="@+id/button6"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_centerHorizontal="true"
+        android:onClick="onRegister" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/abc_primary_text_material_dark"
+        android:text="View all previous inspections/complaints"
+        android:id="@+id/button6"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:clickable="true"
+        android:onClick="getJSON" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBox"
+        android:checked="false"
+        android:layout_alignTop="@+id/textView12"
+        android:layout_alignParentEnd="true" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBox3"
+        android:layout_alignBottom="@+id/textView14"
+        android:layout_alignStart="@+id/checkBox"
+        android:checked="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Ma. Pa. Se."
+        android:layout_marginTop="10dp"
+        android:id="@+id/textView18"
+        android:layout_below="@+id/editText8"
+        android:layout_alignParentStart="true"
+        android:textColor="#000"
+        android:typeface="serif"
+        android:textStyle="bold" />
+
+</RelativeLayout>

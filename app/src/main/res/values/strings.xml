@@ -1,0 +1,39 @@
+<resources>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="image">image</string>
+    <string name="imgbutton">imgbutton</string>
+
+    <string-array name="district">
+                <item>District</item>
+                <item>ध</item>
+                <item>मे</item>
+                <item>को</item>
+                <item>स</item>
+                <item>ज</item>
+                <item>बा</item>
+                <item>ना</item>
+                <item>ग</item>
+                <item>लु</item>
+                <item>रा</item>
+                <item>भे</item>
+                <item>क</item>
+                <item>से</item>
+                <item>म</item>
+            </string-array>
+
+    <string-array name="Type">
+                <item>Type</item>
+                <item>प</item>
+                <item>च</item>
+                <item>क</item>
+                <item>ज</item>
+                <item>ख</item>
+            </string-array>
+
+    <string name="app_name">ANPR</string>
+
+</resources>

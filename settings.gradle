@@ -1,0 +1,2 @@
+include ':app', ':mylibrary', ':app2', ':tess-two-test', ':tess-two'
+include ':libraries:tess-two'

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".RegisterActivity"
+    android:background="#d8e5b8">
+
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="PoliceID :"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/colorPrimaryText"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/editPoliceID"
+        android:hint="Enter a Valid PoliceID."
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:typeface="serif" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/colorPrimaryText"
+        android:text="Name :"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editName"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:hint="Enter your Name."
+        android:typeface="serif" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryText"
+        android:text="Phone Number :"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:ems="10"
+        android:id="@+id/editPhone"
+        android:hint="Enyer your Phone Number."
+        android:typeface="serif" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/colorPrimaryText"
+        android:text="Age :"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/editAge"
+        android:typeface="serif"
+        android:hint="Enter your Age ( 30 - 70 )" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/colorPrimaryText"
+        android:text="Email :"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/editTextEmail"
+        android:hint="Enter your E-mail Address."
+        android:typeface="serif" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/colorPrimaryText"
+        android:text="Password :"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/editTextPassword"
+        android:layout_gravity="center_horizontal"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:typeface="serif"
+        android:hint="Enter your Password" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:onClick="onClick"
+        android:id="@+id/buttonRegister"
+        android:clickable="true"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/abc_primary_text_material_dark"
+        android:typeface="serif" />
+
+
+</LinearLayout>

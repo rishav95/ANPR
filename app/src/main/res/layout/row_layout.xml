@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="75dp">
+
+
+    <TextView
+        android:layout_height = "match_parent"
+        android:layout_width = "50dp"
+        android:id="@+id/txID"
+        android:textColor="@color/colorPrimary"
+        android:layout_alignParentLeft = "true"
+        android:gravity="center"
+        android:text = "ID"
+        android:textAppearance="?android:textAppearanceMedium"/>
+    <TextView
+        android:textColor="@color/colorPrimary"
+        android:layout_height = "match_parent"
+        android:layout_width = "100dp"
+        android:id="@+id/txNum"
+        android:gravity="center"
+        android:text = "Number"
+        android:layout_toRightOf="@+id/txID"
+        android:textAppearance = "?android:textAppearanceMedium"/>
+    <TextView
+        android:layout_height = "match_parent"
+        android:layout_width = "100dp"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/txLic"
+        android:layout_toRightOf="@+id/txNum"
+        android:gravity="center"
+        android:text = "License"
+        android:textAppearance = "?android:textAppearanceMedium"/>
+    <TextView
+        android:layout_height = "match_parent"
+        android:layout_width = "100dp"
+        android:id="@+id/txLoc"
+        android:layout_toRightOf="@+id/txLic"
+        android:textColor="@color/colorPrimary"
+        android:text="Location"
+        android:gravity="center"
+        android:textAppearance = "?android:textAppearanceMedium"/>
+    <TextView
+        android:layout_height = "match_parent"
+        android:layout_width = "50dp"
+        android:id="@+id/txBB"
+        android:layout_toRightOf="@+id/txLoc"
+        android:textColor="@color/colorPrimary"
+        android:text="Bluebook"
+        android:gravity="center"
+        android:textAppearance = "?android:textAppearanceMedium"/>
+    <TextView
+        android:layout_height = "match_parent"
+        android:layout_width = "120dp"
+        android:id="@+id/txModel"
+        android:layout_toRightOf="@+id/txBB"
+        android:text="Model"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center"
+        android:textAppearance = "?android:textAppearanceMedium"/>
+    <TextView
+        android:layout_height = "match_parent"
+        android:layout_width = "150dp"
+        android:id="@+id/txComm"
+        android:layout_toRightOf="@+id/txModel"
+        android:text="Comment"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center"
+        android:textAppearance = "?android:textAppearanceMedium"/>
+    <TextView
+        android:layout_height = "match_parent"
+        android:layout_width = "50dp"
+        android:id="@+id/txMaPaSe"
+        android:layout_toRightOf="@+id/txComm"
+        android:textColor="@color/colorPrimary"
+        android:text="Ma Pa Se"
+        android:gravity="center"
+        android:textAppearance = "?android:textAppearanceMedium"/>
+    <TextView
+        android:layout_height = "match_parent"
+        android:layout_width = "150dp"
+        android:id="@+id/txDate"
+        android:textColor="@color/colorPrimary"
+        android:layout_toRightOf="@+id/txMaPaSe"
+        android:text="Date"
+        android:gravity="center"
+        android:textAppearance = "?android:textAppearanceMedium"/>
+
+</RelativeLayout>

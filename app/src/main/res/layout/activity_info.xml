@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollHorizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#d8e5b8">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/list"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txBB" />
+    <TextView
+        android:layout_height = "wrap_content"
+        android:layout_width = "60dp"
+        android:id="@+id/txID"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:text = "ID"
+        android:textColor="@color/colorPrimary"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_height = "wrap_content"
+        android:textStyle="bold"
+        android:layout_width = "110dp"
+        android:id="@+id/txNum"
+        android:textColor="@color/colorPrimary"
+        android:text = "Number"
+        android:layout_toEndOf="@+id/txID"
+        android:textAppearance = "?android:textAppearanceMedium"/>
+    <TextView
+        android:layout_height = "wrap_content"
+        android:layout_width = "90dp"
+        android:id="@+id/txLic"
+        android:textStyle="bold"
+        android:layout_toEndOf="@+id/txNum"
+        android:text = "License"
+        android:textColor="@color/colorPrimary"
+        android:textAppearance = "?android:textAppearanceMedium"/>
+    <TextView
+        android:layout_height = "wrap_content"
+        android:layout_width = "95dp"
+        android:id="@+id/txLoc"
+        android:textStyle="bold"
+        android:layout_toEndOf="@+id/txLic"
+        android:text="Location"
+        android:textColor="@color/colorPrimary"
+        android:textAppearance = "?android:textAppearanceMedium"/>
+    <TextView
+        android:layout_height = "wrap_content"
+        android:layout_width = "50dp"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/txBB"
+        android:textStyle="bold"
+        android:layout_toEndOf="@+id/txLoc"
+        android:text="Bluebook"
+        android:textAppearance = "?android:textAppearanceMedium"/>
+    <TextView
+        android:layout_height = "wrap_content"
+        android:layout_width = "120dp"
+        android:id="@+id/txModel"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:textAlignment="center"
+        android:layout_toEndOf="@+id/txBB"
+        android:text="Model"
+        android:textAppearance = "?android:textAppearanceMedium"/>
+    <TextView
+        android:layout_height = "wrap_content"
+        android:layout_width = "140dp"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/txComm"
+        android:textStyle="bold"
+        android:layout_toEndOf="@+id/txModel"
+        android:text="Comment"
+        android:textAppearance = "?android:textAppearanceMedium"/>
+    <TextView
+        android:layout_height = "wrap_content"
+        android:layout_width = "40dp"
+        android:id="@+id/txMaPaSe"
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/colorPrimary"
+        android:textAlignment="center"
+        android:layout_toEndOf="@+id/txComm"
+        android:text="Ma Pa Se"
+        android:textStyle="bold"
+        android:textAppearance = "?android:textAppearanceMedium"/>
+    <TextView
+        android:layout_height = "wrap_content"
+        android:layout_width = "160dp"
+        android:id="@+id/txDate"
+        android:textColor="@color/colorPrimary"
+        android:textAlignment="center"
+        android:layout_toEndOf="@+id/txMaPaSe"
+        android:text="Date/Time"
+        android:textAppearance = "?android:textAppearanceMedium"
+        android:textStyle="bold" />
+</RelativeLayout>
+</HorizontalScrollView>
